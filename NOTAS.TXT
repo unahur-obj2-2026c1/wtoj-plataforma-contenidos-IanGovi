@@ -1,0 +1,15 @@
+Contenido
+----------
+    titulo
+    costoBaseDeLicencia
+----------
+    cambiarCostoDeLicencia()
+
+tipos de contenido
+
+Usuario
+    nombre
+    plan
+    contenidos <Contenido>
+
+atributos + métodos
