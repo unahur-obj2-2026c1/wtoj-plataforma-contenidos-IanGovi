@@ -1,5 +1,5 @@
 package ar.edu.unahur.obj2.w2j;
-
+/* 
 public abstract class ContenidoAlt {
     protected String titulo;
     protected Double costoBase;
@@ -14,4 +14,4 @@ public abstract class ContenidoAlt {
 
 }
 
-
+*/

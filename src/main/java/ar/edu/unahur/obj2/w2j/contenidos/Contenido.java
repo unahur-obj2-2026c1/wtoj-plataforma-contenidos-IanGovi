@@ -4,7 +4,7 @@ public abstract class Contenido {
     private String titulo;
     protected Double costo;
 
-    public Contenido(String titulo, Double costo) {
+    protected Contenido(String titulo, Double costo) {
         this.titulo = titulo;
         this.costo = costo;
     }

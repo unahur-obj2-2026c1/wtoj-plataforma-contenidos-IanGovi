@@ -1,8 +1,8 @@
 package ar.edu.unahur.obj2.w2j.contenidos.serie;
 
-import java.util.List;
+import ar.edu.unahur.obj2.w2j.contenidos.Contenido;
 
-public class Documental extends Serie  {
+public class Documental extends Contenido  {
 
     private static Double idra = 0.5;
 
@@ -10,8 +10,8 @@ public class Documental extends Serie  {
         Documental.idra = idra;
     }
 
-    public Documental(String titulo, Double costo, List<Temporada> temporadas) {
-        super(titulo, costo, temporadas);
+    public Documental(String titulo, Double costo) {
+        super(titulo, costo);
     }
 
     @Override
